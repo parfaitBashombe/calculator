@@ -10,6 +10,12 @@ function clearDisplay() {
   display.value = "";
 }
 
+function deleteDisplay() {
+  display.pop();
+
+  return display;
+}
+
 function calculate() {
   try {
     display.value = eval(display.value);
