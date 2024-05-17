@@ -21,3 +21,12 @@ function calculate() {
     display.value = "Error";
   }
 }
+
+function oddEvenDisplay(x) {
+  x = display.value %= 2;
+  if (x == 0) {
+    display.value = "Even";
+  } else {
+    display.value = "Odd";
+  }
+}
