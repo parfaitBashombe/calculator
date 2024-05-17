@@ -11,9 +11,7 @@ function clearDisplay() {
 }
 
 function deleteDisplay() {
-  display.pop();
-
-  return display;
+  display.value = str.replace(display.value.length - 1, value2);
 }
 
 function calculate() {
