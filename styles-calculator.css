@@ -83,7 +83,6 @@ button:active {
   cursor: pointer;
 }
 
-.EO:hover,
 .del:hover,
 .clear:hover {
   background-color: hsl(0, 0%, 40%);
