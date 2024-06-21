@@ -89,7 +89,6 @@ button:active {
   background-color: hsl(0, 0%, 40%);
 }
 
-.EO:active,
 .del:active,
 .clear:active {
   background-color: hsl(0, 0%, 50%);
